@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.--header-desactive {
+    display: none;
+}
+
+.form-container__modal {
+    display: none;
+}
+
+.--active-modal {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #62909ef1;
+}
+
+form {
+    height: 22rem;
+    width: 15rem;
+    margin: auto;
+    background-color: rgb(25, 34, 83);
+    color: white;
+    padding: .5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.notes__container {
+    max-width: 80vw;
+    padding: 1rem 2.5rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.notes__list {
+    width: 15rem;
+    min-height: 12rem;
+    padding: .75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background-image: url('./cuaderno-cajas.png'); */
+    /* background-size: auto; */
+    /* background-position: center; */
+
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.notes__list h3 p {
+    margin: 0;
+}
+
+.notes__list h3 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+
+}
+
+.notes__list p {
+    font-size: 1rem;
+    overflow: hidden;   
+}
+
+
+.--importante {
+    background-color: #ff000059;
+    color: #880000;
+}
+
+.--importante:hover {
+    background-color: #770000de;
+    color: white;
+}
+
+
+.--imparcial {
+    background-color: #ffd90060;
+    color: #ff7b00;
+}
+
+.--imparcial:hover {
+    background-color: #f19d00;
+    color: white;
+
+}
+
+.--libre {
+    background-color: #48ff0069;
+    color: #2f9600;
+}
+
+.--libre:hover {
+    background-color: #1b6100d5;
+    color: white;
+
+}
+
+.buttons-form-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-form-container button{
+    min-width: 7rem;
+    border: none;
+    border: 1px solid #c0c0c0a9;
+    padding: .25rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.buttons-form-container button:hover{
+    border-color: #0b0e18;
+    background-color: #00030f;
+    color: white;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Firebase</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <button id="button-new-note">Nueva Nota</button>
+    </header>
+    <div class="form-container__modal" id="modal-form">
+        <form id="note-form">
+            <button id="button-close-form">X</button>
+            <label for="note-title">Titulo</label>
+            <input type="text" id="note-title" placeholder="Titulo de la Nota">
+    
+            <label for="note-type">Titulo</label>
+            <select name="select" id="note-type">
+                <option value="libre">Libre</option>
+                <option value="importante">Importante</option>
+                <option value="imparcial">Imparcial</option>
+            </select>
+    
+            <label for="note-content">Contenido</label>
+            <textarea id="note-content" rows="3" placeholder="Ingrese el contenido"></textarea>
+    
+            <button id="button-save">Crear Nota</button>
+        </form>
+    </div>
+
+    <div id="notes-container" class="notes__container"></div>
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
